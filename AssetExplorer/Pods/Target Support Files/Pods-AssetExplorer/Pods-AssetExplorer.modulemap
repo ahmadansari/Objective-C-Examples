@@ -1,0 +1,6 @@
+framework module Pods_AssetExplorer {
+  umbrella header "Pods-AssetExplorer-umbrella.h"
+
+  export *
+  module * { export * }
+}

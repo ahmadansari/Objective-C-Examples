@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  AssetExplorer
+//
+//  Created by Ahmad Ansari on 06/02/2018.
+//  Copyright © 2018 Ahmad Ansari. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <SDWebImage/SDWebImage-umbrella.h>
+#import <Photos/Photos.h>
+#import <PhotosUI/PhotosUI.h>
+#import "Macros.h"
+#import "AXLogger.h"
+#import "Constants.h"
+#import "AXUtility.h"
+
+#endif /* PrefixHeader_pch */

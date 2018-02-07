@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  AssetExplorer
+
+  Created by Ahmad Ansari on 06/02/2018.
+  Copyright © 2017 Ahmad Ansari. All rights reserved.
+*/
+
+"KEY_STRING_APP_TITLE" = "Asset Explorer";
+"KEY_STRING_SELECT" = "Select";
+"KEY_STRING_SAVE" = "Save";
+"KEY_STRING_CANCEL" = "Cancel";
+"KEY_STRING_ERROR" = "Error";
+"KEY_STRING_OK" = "Ok";
+"KEY_STRING_NO_CONNECTIVITY" = "No internet connectivity";
+
