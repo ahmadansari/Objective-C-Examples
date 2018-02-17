@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Automobile
+
+  Created by Ahmad Ansari on 16/02/2018.
+  Copyright © 2018 Ahmad Ansari. All rights reserved.
+*/
+
+"Automobile" = "Automobile";
+"Manufacturer" = "Manufacturer";
+"Manufacturers" = "Manufacturers";
+"Models" = "Models";
+"Unknown" = "Unknown";
+"Dismiss" = "Dismiss";

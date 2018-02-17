@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - AXReachability (0.1.0)
+  - Localize-Swift (2.0.0)
+  - MBProgressHUD (1.1.0)
+  - SwiftyBeaver (1.5.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AXReachability
+  - Localize-Swift
+  - MBProgressHUD
+  - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  AXReachability: 8f21fc1b19788ed2b745a18e72b534170a159e63
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SwiftyBeaver: 4f74563624b2c1e821c522c54142b5dd5ebb0f30
+
+PODFILE CHECKSUM: c871f61122d24f3edad3c6edf7f095e09a64997e
+
+COCOAPODS: 1.4.0

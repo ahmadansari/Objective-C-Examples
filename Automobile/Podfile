@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+  platform :ios, '9.0'
+
+# Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!  
+
+# Pods List
+def podsList
+    # Pods for AssetExplorer
+    pod 'SwiftyBeaver'
+    pod 'MBProgressHUD'
+    pod 'Localize-Swift'
+    pod 'Alamofire'
+    pod 'AXReachability'
+end
+
+
+# Pods for Automobile
+target 'Automobile' do  
+	podsList
+end
