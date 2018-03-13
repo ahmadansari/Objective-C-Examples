@@ -24,10 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //Network Configuration
         AXReachability.shared().startMonitoring()
         
-        UINavigationBar.appearance().barTintColor = ATUtility.defaultUtility.UIColorFromHex(ATConstants.barTintColor)
-        UINavigationBar.appearance().tintColor = UIColor.white
-        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
-        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        //Setting up Appearence
+        self.setupAppearence()
         
         return true
     }
@@ -54,6 +52,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    
+    func setupAppearence() {
+        UINavigationBar.appearance().barTintColor = ATUtility.defaultUtility.UIColorFromHex(ATConstants.barTintColor)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+        UINavigationBar.appearance().largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+    }
 
 }
 

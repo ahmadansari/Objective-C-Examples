@@ -11,13 +11,6 @@ import Localize_Swift
 import CoreData
 import MBProgressHUD
 
-/*
- *  ATViewController is the template controller for views that use UITableView
- *  along with NSFetchedResultscontroller to display Core Data objects. This class
- *  defines all common utility methods and leaves implementation for child classes
- *  to be provided. Also it hides all FRC boilerplate code so that child controllers
- *  do not get messy.
- */
 class ATViewController: UIViewController {
     
     var fetchedResultsController: NSFetchedResultsController<NSFetchRequestResult>!
