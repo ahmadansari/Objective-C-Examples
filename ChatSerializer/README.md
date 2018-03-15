@@ -33,12 +33,13 @@ $ pod install
 - On tapping a single chat cell, serialized JSON value for specific message will be displayed.
 
 ## Sample Screens
-![App Video](Screenshots/appvideo.mp4)
 ![History](Screenshots/1.png)
 ![Chat Board](Screenshots/2.png)
 ![JSON](Screenshots/3.png)
 ![JSON](Screenshots/4.png)
 ![JSON](Screenshots/5.png)
+
+See Application Video here:  [appvideo.mp4](Screenshots/appvideo.mp4)
 
 ## Built With
 
