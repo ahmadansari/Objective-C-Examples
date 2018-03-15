@@ -1,2 +1,2 @@
-# Objective-C-Examples
-Example Source Codes for iOS Platform in Objective-C
+# iOS Coding Samples
+Sample Source Codes for iOS Platform in Swifdt & Objective-C

@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D5C22BC0E332235C0D942E86F31354 /* MBProgressHUD-dummy.m */; };
+		0B83C649B26A981A847DF232CBE15640 /* Pods-ChatSerializerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10353D8869A8EE6971290966CFF94BBB /* Pods-ChatSerializerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F1875588308E505F55A7C83A757E9D5 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121A02A24C6ABD185E890EF08A32AB97 /* Filter.swift */; };
+		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		18213767FDD489E646B42A32459369C2 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB9B60309127C549D4C9C431A0ACE98 /* SwiftyBeaver.swift */; };
+		1A72CC457280E31ED987B8E009894300 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC9099198547D9408C75C9E109C0452 /* SwiftyBeaver-dummy.m */; };
+		21C9EC6DAC65E427ABE51F4F1FA03895 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CF7F35C9E9717448AB6BDC26670F53 /* UIImage+Gif.swift */; };
+		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F448FCA7509EB6B34DA9D41D52C7CE /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C2F1FD4222BDFE18B6E33A405792B14 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BD5296021EF4C4A3A46A00800156EE /* SBPlatformDestination.swift */; };
+		418C0AB5593834F0EAE5E292BAFA20CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		4A636EE1DC6895A529ADF77BEDEA4D90 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CBA1F142B9F3CA331C2DB1BE53E83C /* AES256CBC.swift */; };
+		4A6FBB0607BA8329FE363ABB978DF6DB /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28930B16B581FD8DE6CA2FF46E4A87E9 /* FileDestination.swift */; };
+		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		622B3EACC382F73AB194AB45557AE2B7 /* SwiftGifOrigin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4408A25942C05C8C318A48522426A0 /* SwiftGifOrigin-dummy.m */; };
+		80DACAE78DB08CA72911106A164C08FB /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9A803D204CC78DAA5F094233B536C8 /* ConsoleDestination.swift */; };
+		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEB81BAD03DC63E058E22BF084C723C /* MBProgressHUD.m */; };
+		8CD71F23A0C5A85598718FF6AC17DB7A /* Pods-ChatSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCFD28E23C20B699BD6DA5F6BC10A9A /* Pods-ChatSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9352F5DCA1576FF69849E258D22C6C50 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F2E7FB67664B7257AEC8F086A39F7 /* Extensions.swift */; };
+		A0E8D32B2C51A665F2A444928CA63132 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		A2B62BA0F4DBC4B43563AEB28D706B5C /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D57F98D9EEA8DE0529CFE5AA8506B1 /* GoogleCloudDestination.swift */; };
+		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D391298594C1EB68FE10671097D722BF /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA73606F87C0A8DE8CA0DB2F78FCEF6E /* Pods-ChatSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B319BD28131CE2DCCEB14727E377FAD5 /* Pods-ChatSerializer-dummy.m */; };
+		ADA3AA24E80F92B15D73C53F4DEE8C14 /* SwiftGifOrigin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3CF59EFC434119FBE499184F613AF2 /* SwiftGifOrigin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61E7299D3A2FAD0197F532FFF6A73D1 /* Pods-ChatSerializerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9A8BAF1C3859F610B03681096C788 /* Pods-ChatSerializerTests-dummy.m */; };
+		B8F3FAB2FCD433869D26A3CED5314ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		BD395F4FEAFA05636EF5089C0EA75E87 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 609E734D08806873C25EE7AA61C13A07 /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
+		C5DF02250597CCA8A79490236E335337 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708E08446B98A697E217B1C23AC4D3BE /* Base64.swift */; };
+		C64840D6F0D27221EE26E5C2CE002FC0 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F890B07A88067519CD244108ED853962 /* BaseDestination.swift */; };
+		D026719798B6B01A1F366239B74C4803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		D2F3269725727B0836480BE74C40094F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		E4E9B37D6945B1A8B9C703B8D2247A97 /* Pods-ChatSerializerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 399E22BE257036C7CBC066AB802FF44A /* Pods-ChatSerializerUITests-dummy.m */; };
+		FAA527559C58DCB595A1A5DB1E19584E /* Pods-ChatSerializerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F53A031E7F8EE28399A37703FAFC4A /* Pods-ChatSerializerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		120486049B9410401E9F51EF3C57CA8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0367A268EB2796E86339E0D5ECFD55DC;
+			remoteInfo = SwiftyBeaver;
+		};
+		64A00E8ADB135B40469D0A30A8A37E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
+			remoteInfo = MBProgressHUD;
+		};
+		D7E816B65487FC65378D36B5FDE4A34D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D91FA260565DA9310ED2BC36C78F07;
+			remoteInfo = SwiftGifOrigin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003033358E6F5A783DFD47D726C1692C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03AABC365FDF9A01106F77F072329F87 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		0872F57AC097A9118786CE75F9B3B9F7 /* Pods-ChatSerializer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializer-resources.sh"; sourceTree = "<group>"; };
+		0B3CF59EFC434119FBE499184F613AF2 /* SwiftGifOrigin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-umbrella.h"; sourceTree = "<group>"; };
+		0CC98A1DDB6BF379D2FB1F46ACE67299 /* SwiftGifOrigin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftGifOrigin-prefix.pch"; sourceTree = "<group>"; };
+		0CF0104A2246DFCFEB71FB4DE56209A3 /* Pods-ChatSerializerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10353D8869A8EE6971290966CFF94BBB /* Pods-ChatSerializerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSerializerTests-umbrella.h"; sourceTree = "<group>"; };
+		121A02A24C6ABD185E890EF08A32AB97 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		16A8D4B2B9FCFBCB0385F062F9A82C0A /* Pods-ChatSerializerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1964160D25C8245558F2001C8C400897 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		1E881FDAC4B460CD6174CF70AD16ECAB /* Pods-ChatSerializerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSerializerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EB0F882CA5DDCC750563A03E11DBA32 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28930B16B581FD8DE6CA2FF46E4A87E9 /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
+		2DB9B60309127C549D4C9C431A0ACE98 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		2ED6147B819F2518D28C7B9640DDA692 /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		30BDFEBCF9FFBA422F607EC81D0EA30F /* Pods-ChatSerializerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSerializerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35CED8447C50F133770C0BEBCE1D4446 /* Pods-ChatSerializerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSerializerUITests.modulemap"; sourceTree = "<group>"; };
+		36EA6052419B3AAB07E35F52CEAC2725 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399E22BE257036C7CBC066AB802FF44A /* Pods-ChatSerializerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSerializerUITests-dummy.m"; sourceTree = "<group>"; };
+		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		42D5C22BC0E332235C0D942E86F31354 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		4584AA7ECC8ABDD295FDD6109F52DBA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		458ECBE720B96C5544264C168E5E9F4F /* Pods-ChatSerializer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSerializer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53D57F98D9EEA8DE0529CFE5AA8506B1 /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		5C7B5E1570D689DD73704EF305F8E10D /* Pods-ChatSerializerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSerializerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D0FD43877A8D828CAA767646CF024DF /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		609E734D08806873C25EE7AA61C13A07 /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		6ACB5CEFF1E8CB70A7CAF2E03A37AA3D /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		6B9A803D204CC78DAA5F094233B536C8 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		708E08446B98A697E217B1C23AC4D3BE /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		7DFD4DAB7C30D56E1D22FFE71A6EB965 /* Pods-ChatSerializerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializerTests-frameworks.sh"; sourceTree = "<group>"; };
+		824423B1B2F42B8DF56BCB72CE512F00 /* SwiftGifOrigin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftGifOrigin.modulemap; sourceTree = "<group>"; };
+		8731AE5550BB90BD4B01BE01159F7792 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4408A25942C05C8C318A48522426A0 /* SwiftGifOrigin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftGifOrigin-dummy.m"; sourceTree = "<group>"; };
+		92AD4A37BBDF0A4B1F5EEBE4411BAADD /* Pods-ChatSerializerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSerializerTests.modulemap"; sourceTree = "<group>"; };
+		9302D56AAA84F45009E08055CAF86EDB /* Pods_ChatSerializerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatSerializerUITests.framework; path = "Pods-ChatSerializerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985228C10EB002C2853B2CE9BC09EB74 /* Pods-ChatSerializer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSerializer.modulemap"; sourceTree = "<group>"; };
+		A18248ACE4FCA858EB1E3579111F4BA2 /* Pods-ChatSerializerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A23E26757158A39383DEBB86555B99B6 /* Pods-ChatSerializerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializerTests-resources.sh"; sourceTree = "<group>"; };
+		A3BD5296021EF4C4A3A46A00800156EE /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		A3CF7F35C9E9717448AB6BDC26670F53 /* UIImage+Gif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "SwiftGifCommon/UIImage+Gif.swift"; sourceTree = "<group>"; };
+		A8E111E9CC812095B577F6DD8EF45D10 /* SwiftGifOrigin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGifOrigin.xcconfig; sourceTree = "<group>"; };
+		A96CE40ECB3A47132DC8D04547CADCDA /* SwiftGifOrigin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftGifOrigin.framework; path = SwiftGifOrigin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06930004EBD9F365CA1364F9B5B40DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B319BD28131CE2DCCEB14727E377FAD5 /* Pods-ChatSerializer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSerializer-dummy.m"; sourceTree = "<group>"; };
+		B57F2E7FB67664B7257AEC8F086A39F7 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		BCEB81BAD03DC63E058E22BF084C723C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BF71E6AEC7B47B47EBCBAD3CF9EFDFFF /* Pods-ChatSerializer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializer.release.xcconfig"; sourceTree = "<group>"; };
+		BFC9099198547D9408C75C9E109C0452 /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		C17A3D1888CC107F05A5931B59FC680B /* Pods-ChatSerializerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializerUITests-resources.sh"; sourceTree = "<group>"; };
+		C6F448FCA7509EB6B34DA9D41D52C7CE /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		CA0BA19B92EDBC023BFADCDC4544E3B8 /* Pods-ChatSerializer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSerializer-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2CBA1F142B9F3CA331C2DB1BE53E83C /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
+		D2E273B149746C1D69359C334D607AEB /* Pods-ChatSerializerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D391298594C1EB68FE10671097D722BF /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		D9648735652A3CDBA6BBD94B7B6C78AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD34C52A8EAB2B389CAA1FBBDE4BA2C3 /* Pods-ChatSerializerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatSerializerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDCFD28E23C20B699BD6DA5F6BC10A9A /* Pods-ChatSerializer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSerializer-umbrella.h"; sourceTree = "<group>"; };
+		E09E442FEACFA6FCC18377091123D9D6 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		E4A9A8BAF1C3859F610B03681096C788 /* Pods-ChatSerializerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSerializerTests-dummy.m"; sourceTree = "<group>"; };
+		E541D126CBAB6E91D0325CB3123470BB /* Pods_ChatSerializerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatSerializerTests.framework; path = "Pods-ChatSerializerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75138C3B792061432EA1BCA82B30CC2 /* Pods-ChatSerializerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA5BB8C760E985E3FF0E3AA0510BBE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C184622BFC5E8FE258258D210577AF /* Pods-ChatSerializer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatSerializer-frameworks.sh"; sourceTree = "<group>"; };
+		F4E825FCE91251FD83E1E26463827D7D /* Pods_ChatSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChatSerializer.framework; path = "Pods-ChatSerializer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F890B07A88067519CD244108ED853962 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		F9F53A031E7F8EE28399A37703FAFC4A /* Pods-ChatSerializerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatSerializerUITests-umbrella.h"; sourceTree = "<group>"; };
+		FF50E3C7109C8AC664C18B5602FE3319 /* Pods-ChatSerializer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatSerializer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1385A24737797FD5328E69DC876DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C0AB5593834F0EAE5E292BAFA20CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA1087025D8781C2934A3A3FFF0D9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F3269725727B0836480BE74C40094F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E2A43444A87CA0ADDC6A0FF3495830C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D026719798B6B01A1F366239B74C4803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B96FBFC53B67EA8615AF97DC27365A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F3FAB2FCD433869D26A3CED5314ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57774E30FD88AE26F9037E1360E947B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */,
+				14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */,
+				5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D886DCB21E6711D79195ECBAD925171B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8D32B2C51A665F2A444928CA63132 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07449FABA77AFA4E0520C2374E274E93 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D391298594C1EB68FE10671097D722BF /* MBProgressHUD.h */,
+				BCEB81BAD03DC63E058E22BF084C723C /* MBProgressHUD.m */,
+				61D474FD259496B19CDDDD0E5A3A8E4E /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1045DEF3CD0FAB9DD1DF0E97AB3305D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07449FABA77AFA4E0520C2374E274E93 /* MBProgressHUD */,
+				74A7B7E67B2D05726F651849B9C6A75C /* SwiftGifOrigin */,
+				2FC0089EFE48E5D6B3502C278F0E1044 /* SwiftyBeaver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13F6812039D6AE9A66E0CC93D6184A53 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4584AA7ECC8ABDD295FDD6109F52DBA3 /* Info.plist */,
+				1964160D25C8245558F2001C8C400897 /* SwiftyBeaver.modulemap */,
+				E09E442FEACFA6FCC18377091123D9D6 /* SwiftyBeaver.xcconfig */,
+				BFC9099198547D9408C75C9E109C0452 /* SwiftyBeaver-dummy.m */,
+				2ED6147B819F2518D28C7B9640DDA692 /* SwiftyBeaver-prefix.pch */,
+				609E734D08806873C25EE7AA61C13A07 /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		1796F7BC3074C3174781BA5AA284CEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36EA6052419B3AAB07E35F52CEAC2725 /* MBProgressHUD.framework */,
+				F4E825FCE91251FD83E1E26463827D7D /* Pods_ChatSerializer.framework */,
+				E541D126CBAB6E91D0325CB3123470BB /* Pods_ChatSerializerTests.framework */,
+				9302D56AAA84F45009E08055CAF86EDB /* Pods_ChatSerializerUITests.framework */,
+				A96CE40ECB3A47132DC8D04547CADCDA /* SwiftGifOrigin.framework */,
+				1EB0F882CA5DDCC750563A03E11DBA32 /* SwiftyBeaver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC0089EFE48E5D6B3502C278F0E1044 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				D2CBA1F142B9F3CA331C2DB1BE53E83C /* AES256CBC.swift */,
+				708E08446B98A697E217B1C23AC4D3BE /* Base64.swift */,
+				F890B07A88067519CD244108ED853962 /* BaseDestination.swift */,
+				6B9A803D204CC78DAA5F094233B536C8 /* ConsoleDestination.swift */,
+				B57F2E7FB67664B7257AEC8F086A39F7 /* Extensions.swift */,
+				28930B16B581FD8DE6CA2FF46E4A87E9 /* FileDestination.swift */,
+				121A02A24C6ABD185E890EF08A32AB97 /* Filter.swift */,
+				53D57F98D9EEA8DE0529CFE5AA8506B1 /* GoogleCloudDestination.swift */,
+				A3BD5296021EF4C4A3A46A00800156EE /* SBPlatformDestination.swift */,
+				2DB9B60309127C549D4C9C431A0ACE98 /* SwiftyBeaver.swift */,
+				13F6812039D6AE9A66E0CC93D6184A53 /* Support Files */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */,
+				12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */,
+				5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		61D474FD259496B19CDDDD0E5A3A8E4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B06930004EBD9F365CA1364F9B5B40DB /* Info.plist */,
+				6ACB5CEFF1E8CB70A7CAF2E03A37AA3D /* MBProgressHUD.modulemap */,
+				03AABC365FDF9A01106F77F072329F87 /* MBProgressHUD.xcconfig */,
+				42D5C22BC0E332235C0D942E86F31354 /* MBProgressHUD-dummy.m */,
+				5D0FD43877A8D828CAA767646CF024DF /* MBProgressHUD-prefix.pch */,
+				C6F448FCA7509EB6B34DA9D41D52C7CE /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		74A7B7E67B2D05726F651849B9C6A75C /* SwiftGifOrigin */ = {
+			isa = PBXGroup;
+			children = (
+				A3CF7F35C9E9717448AB6BDC26670F53 /* UIImage+Gif.swift */,
+				78614A7287680A23D7A97CEC9A8F57DC /* Support Files */,
+			);
+			name = SwiftGifOrigin;
+			path = SwiftGifOrigin;
+			sourceTree = "<group>";
+		};
+		78614A7287680A23D7A97CEC9A8F57DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBA5BB8C760E985E3FF0E3AA0510BBE8 /* Info.plist */,
+				824423B1B2F42B8DF56BCB72CE512F00 /* SwiftGifOrigin.modulemap */,
+				A8E111E9CC812095B577F6DD8EF45D10 /* SwiftGifOrigin.xcconfig */,
+				8C4408A25942C05C8C318A48522426A0 /* SwiftGifOrigin-dummy.m */,
+				0CC98A1DDB6BF379D2FB1F46ACE67299 /* SwiftGifOrigin-prefix.pch */,
+				0B3CF59EFC434119FBE499184F613AF2 /* SwiftGifOrigin-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGifOrigin";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				1045DEF3CD0FAB9DD1DF0E97AB3305D4 /* Pods */,
+				1796F7BC3074C3174781BA5AA284CEB1 /* Products */,
+				F2CFCA0710F8D236EDE159BBA95928A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAEAC0DE229E63472F2A11E46BA22B2 /* Pods-ChatSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				003033358E6F5A783DFD47D726C1692C /* Info.plist */,
+				985228C10EB002C2853B2CE9BC09EB74 /* Pods-ChatSerializer.modulemap */,
+				458ECBE720B96C5544264C168E5E9F4F /* Pods-ChatSerializer-acknowledgements.markdown */,
+				CA0BA19B92EDBC023BFADCDC4544E3B8 /* Pods-ChatSerializer-acknowledgements.plist */,
+				B319BD28131CE2DCCEB14727E377FAD5 /* Pods-ChatSerializer-dummy.m */,
+				F0C184622BFC5E8FE258258D210577AF /* Pods-ChatSerializer-frameworks.sh */,
+				0872F57AC097A9118786CE75F9B3B9F7 /* Pods-ChatSerializer-resources.sh */,
+				DDCFD28E23C20B699BD6DA5F6BC10A9A /* Pods-ChatSerializer-umbrella.h */,
+				FF50E3C7109C8AC664C18B5602FE3319 /* Pods-ChatSerializer.debug.xcconfig */,
+				BF71E6AEC7B47B47EBCBAD3CF9EFDFFF /* Pods-ChatSerializer.release.xcconfig */,
+			);
+			name = "Pods-ChatSerializer";
+			path = "Target Support Files/Pods-ChatSerializer";
+			sourceTree = "<group>";
+		};
+		CF27E3B51F95AFEDFF99DEA632D482FE /* Pods-ChatSerializerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8731AE5550BB90BD4B01BE01159F7792 /* Info.plist */,
+				92AD4A37BBDF0A4B1F5EEBE4411BAADD /* Pods-ChatSerializerTests.modulemap */,
+				5C7B5E1570D689DD73704EF305F8E10D /* Pods-ChatSerializerTests-acknowledgements.markdown */,
+				1E881FDAC4B460CD6174CF70AD16ECAB /* Pods-ChatSerializerTests-acknowledgements.plist */,
+				E4A9A8BAF1C3859F610B03681096C788 /* Pods-ChatSerializerTests-dummy.m */,
+				7DFD4DAB7C30D56E1D22FFE71A6EB965 /* Pods-ChatSerializerTests-frameworks.sh */,
+				A23E26757158A39383DEBB86555B99B6 /* Pods-ChatSerializerTests-resources.sh */,
+				10353D8869A8EE6971290966CFF94BBB /* Pods-ChatSerializerTests-umbrella.h */,
+				16A8D4B2B9FCFBCB0385F062F9A82C0A /* Pods-ChatSerializerTests.debug.xcconfig */,
+				D2E273B149746C1D69359C334D607AEB /* Pods-ChatSerializerTests.release.xcconfig */,
+			);
+			name = "Pods-ChatSerializerTests";
+			path = "Target Support Files/Pods-ChatSerializerTests";
+			sourceTree = "<group>";
+		};
+		E5633F8E5A07072B76F55D5FC4708694 /* Pods-ChatSerializerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9648735652A3CDBA6BBD94B7B6C78AD /* Info.plist */,
+				35CED8447C50F133770C0BEBCE1D4446 /* Pods-ChatSerializerUITests.modulemap */,
+				DD34C52A8EAB2B389CAA1FBBDE4BA2C3 /* Pods-ChatSerializerUITests-acknowledgements.markdown */,
+				30BDFEBCF9FFBA422F607EC81D0EA30F /* Pods-ChatSerializerUITests-acknowledgements.plist */,
+				399E22BE257036C7CBC066AB802FF44A /* Pods-ChatSerializerUITests-dummy.m */,
+				A18248ACE4FCA858EB1E3579111F4BA2 /* Pods-ChatSerializerUITests-frameworks.sh */,
+				C17A3D1888CC107F05A5931B59FC680B /* Pods-ChatSerializerUITests-resources.sh */,
+				F9F53A031E7F8EE28399A37703FAFC4A /* Pods-ChatSerializerUITests-umbrella.h */,
+				0CF0104A2246DFCFEB71FB4DE56209A3 /* Pods-ChatSerializerUITests.debug.xcconfig */,
+				E75138C3B792061432EA1BCA82B30CC2 /* Pods-ChatSerializerUITests.release.xcconfig */,
+			);
+			name = "Pods-ChatSerializerUITests";
+			path = "Target Support Files/Pods-ChatSerializerUITests";
+			sourceTree = "<group>";
+		};
+		F2CFCA0710F8D236EDE159BBA95928A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DAEAC0DE229E63472F2A11E46BA22B2 /* Pods-ChatSerializer */,
+				CF27E3B51F95AFEDFF99DEA632D482FE /* Pods-ChatSerializerTests */,
+				E5633F8E5A07072B76F55D5FC4708694 /* Pods-ChatSerializerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02A4CD501A1E745262F9B55CB7439CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD395F4FEAFA05636EF5089C0EA75E87 /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		197B7877D5D346F405BDD059EF96DBDC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */,
+				A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A87CF2D75A5C73688D89332C5D4E18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA3AA24E80F92B15D73C53F4DEE8C14 /* SwiftGifOrigin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDFF193900C76AB51B25A7B79E9CDDD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B83C649B26A981A847DF232CBE15640 /* Pods-ChatSerializerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DFCE2630D77EDCEC8B7404304C1F64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA527559C58DCB595A1A5DB1E19584E /* Pods-ChatSerializerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEB6E4A0DC5205CF80E4BE01C910244 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD71F23A0C5A85598718FF6AC17DB7A /* Pods-ChatSerializer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0367A268EB2796E86339E0D5ECFD55DC /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 472A2EA70457949E58CC0DFF20BAA420 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				8B6A2F536A94F6EB772157D89FDF60B0 /* Sources */,
+				5E2A43444A87CA0ADDC6A0FF3495830C /* Frameworks */,
+				02A4CD501A1E745262F9B55CB7439CD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 1EB0F882CA5DDCC750563A03E11DBA32 /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1921F02DA7E0D9493D5D54B90E6BA1BA /* Pods-ChatSerializerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F838D6F3F7784F46DB034299103525A /* Build configuration list for PBXNativeTarget "Pods-ChatSerializerTests" */;
+			buildPhases = (
+				67BE238C684E5FEE531BDDD1EE554C0E /* Sources */,
+				A2B96FBFC53B67EA8615AF97DC27365A /* Frameworks */,
+				BDFF193900C76AB51B25A7B79E9CDDD0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatSerializerTests";
+			productName = "Pods-ChatSerializerTests";
+			productReference = E541D126CBAB6E91D0325CB3123470BB /* Pods_ChatSerializerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3613C346AFB8992650C4F0634799E338 /* Pods-ChatSerializerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA6AB0EE1914451CCB4A7BB70F0C87B /* Build configuration list for PBXNativeTarget "Pods-ChatSerializerUITests" */;
+			buildPhases = (
+				64E53CD6E480E0EBD6A3686C312EFC34 /* Sources */,
+				D886DCB21E6711D79195ECBAD925171B /* Frameworks */,
+				D7DFCE2630D77EDCEC8B7404304C1F64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatSerializerUITests";
+			productName = "Pods-ChatSerializerUITests";
+			productReference = 9302D56AAA84F45009E08055CAF86EDB /* Pods_ChatSerializerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				FE8E0446C3B3B52779E8DE373E495A61 /* Sources */,
+				B57774E30FD88AE26F9037E1360E947B /* Frameworks */,
+				197B7877D5D346F405BDD059EF96DBDC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 36EA6052419B3AAB07E35F52CEAC2725 /* MBProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		726DBF4A79A266073C73D4A3D8BD1DB6 /* Pods-ChatSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B774A5ACB7B41AEF1EA5C39AB5C7DF13 /* Build configuration list for PBXNativeTarget "Pods-ChatSerializer" */;
+			buildPhases = (
+				F3EBC482115CFBF1534509BA4D7C6233 /* Sources */,
+				1B1385A24737797FD5328E69DC876DFC /* Frameworks */,
+				FBEB6E4A0DC5205CF80E4BE01C910244 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4097C1E2630D1D196428BBF37CAF6F0C /* PBXTargetDependency */,
+				4B71877056F8DC53F16F67C8BEBC8268 /* PBXTargetDependency */,
+				5CB3311A0288A93A0EF4C251459F7419 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatSerializer";
+			productName = "Pods-ChatSerializer";
+			productReference = F4E825FCE91251FD83E1E26463827D7D /* Pods_ChatSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87D91FA260565DA9310ED2BC36C78F07 /* SwiftGifOrigin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA481B9F2781C039A50D8869963DD46 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */;
+			buildPhases = (
+				723C4885891749DEB3C6BDE0AF8188AB /* Sources */,
+				2EA1087025D8781C2934A3A3FFF0D9DF /* Frameworks */,
+				43A87CF2D75A5C73688D89332C5D4E18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGifOrigin;
+			productName = SwiftGifOrigin;
+			productReference = A96CE40ECB3A47132DC8D04547CADCDA /* SwiftGifOrigin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1796F7BC3074C3174781BA5AA284CEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */,
+				726DBF4A79A266073C73D4A3D8BD1DB6 /* Pods-ChatSerializer */,
+				1921F02DA7E0D9493D5D54B90E6BA1BA /* Pods-ChatSerializerTests */,
+				3613C346AFB8992650C4F0634799E338 /* Pods-ChatSerializerUITests */,
+				87D91FA260565DA9310ED2BC36C78F07 /* SwiftGifOrigin */,
+				0367A268EB2796E86339E0D5ECFD55DC /* SwiftyBeaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E53CD6E480E0EBD6A3686C312EFC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E9B37D6945B1A8B9C703B8D2247A97 /* Pods-ChatSerializerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67BE238C684E5FEE531BDDD1EE554C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61E7299D3A2FAD0197F532FFF6A73D1 /* Pods-ChatSerializerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723C4885891749DEB3C6BDE0AF8188AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				622B3EACC382F73AB194AB45557AE2B7 /* SwiftGifOrigin-dummy.m in Sources */,
+				21C9EC6DAC65E427ABE51F4F1FA03895 /* UIImage+Gif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6A2F536A94F6EB772157D89FDF60B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A636EE1DC6895A529ADF77BEDEA4D90 /* AES256CBC.swift in Sources */,
+				C5DF02250597CCA8A79490236E335337 /* Base64.swift in Sources */,
+				C64840D6F0D27221EE26E5C2CE002FC0 /* BaseDestination.swift in Sources */,
+				80DACAE78DB08CA72911106A164C08FB /* ConsoleDestination.swift in Sources */,
+				9352F5DCA1576FF69849E258D22C6C50 /* Extensions.swift in Sources */,
+				4A6FBB0607BA8329FE363ABB978DF6DB /* FileDestination.swift in Sources */,
+				0F1875588308E505F55A7C83A757E9D5 /* Filter.swift in Sources */,
+				A2B62BA0F4DBC4B43563AEB28D706B5C /* GoogleCloudDestination.swift in Sources */,
+				3C2F1FD4222BDFE18B6E33A405792B14 /* SBPlatformDestination.swift in Sources */,
+				1A72CC457280E31ED987B8E009894300 /* SwiftyBeaver-dummy.m in Sources */,
+				18213767FDD489E646B42A32459369C2 /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EBC482115CFBF1534509BA4D7C6233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA73606F87C0A8DE8CA0DB2F78FCEF6E /* Pods-ChatSerializer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8E0446C3B3B52779E8DE373E495A61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */,
+				897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4097C1E2630D1D196428BBF37CAF6F0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 41FA54D12162DAD51D02FC58A2CD5034 /* MBProgressHUD */;
+			targetProxy = 64A00E8ADB135B40469D0A30A8A37E64 /* PBXContainerItemProxy */;
+		};
+		4B71877056F8DC53F16F67C8BEBC8268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftGifOrigin;
+			target = 87D91FA260565DA9310ED2BC36C78F07 /* SwiftGifOrigin */;
+			targetProxy = D7E816B65487FC65378D36B5FDE4A34D /* PBXContainerItemProxy */;
+		};
+		5CB3311A0288A93A0EF4C251459F7419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = 0367A268EB2796E86339E0D5ECFD55DC /* SwiftyBeaver */;
+			targetProxy = 120486049B9410401E9F51EF3C57CA8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15750B262B9C228BB57EDB5A8A97AA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF0104A2246DFCFEB71FB4DE56209A3 /* Pods-ChatSerializerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializerUITests/Pods-ChatSerializerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		338DE009069A3F9D5A59596E0B2F926A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF50E3C7109C8AC664C18B5602FE3319 /* Pods-ChatSerializer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializer/Pods-ChatSerializer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42E13D63FE64245312306143861277CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E111E9CC812095B577F6DD8EF45D10 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62B172E6B93A05E472567F03D4D4206D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AABC365FDF9A01106F77F072329F87 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A09E29434CEFD398AF4BD42B81F266F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75138C3B792061432EA1BCA82B30CC2 /* Pods-ChatSerializerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializerUITests/Pods-ChatSerializerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CF84EE23A1F4E7A43EDF9B2A4D5A5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8E111E9CC812095B577F6DD8EF45D10 /* SwiftGifOrigin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftGifOrigin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftGifOrigin/SwiftGifOrigin.modulemap";
+				PRODUCT_NAME = SwiftGifOrigin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		904728397DE6D1686A085B02E01DA508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A8D4B2B9FCFBCB0385F062F9A82C0A /* Pods-ChatSerializerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializerTests/Pods-ChatSerializerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96CFE4A459BF894126A78780AC02AA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E273B149746C1D69359C334D607AEB /* Pods-ChatSerializerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializerTests/Pods-ChatSerializerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEA0703B9AA8C96522B3295CF817AEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09E442FEACFA6FCC18377091123D9D6 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D159497080ACFFA21C3AF2C5C6F4AC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF71E6AEC7B47B47EBCBAD3CF9EFDFFF /* Pods-ChatSerializer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatSerializer/Pods-ChatSerializer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7FEE9386F72011DCCFEA090254BDAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09E442FEACFA6FCC18377091123D9D6 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAF862DDCC91AD02A705F8BB1D31B68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AABC365FDF9A01106F77F072329F87 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		472A2EA70457949E58CC0DFF20BAA420 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FEE9386F72011DCCFEA090254BDAF0 /* Debug */,
+				CEA0703B9AA8C96522B3295CF817AEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F838D6F3F7784F46DB034299103525A /* Build configuration list for PBXNativeTarget "Pods-ChatSerializerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904728397DE6D1686A085B02E01DA508 /* Debug */,
+				96CFE4A459BF894126A78780AC02AA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B774A5ACB7B41AEF1EA5C39AB5C7DF13 /* Build configuration list for PBXNativeTarget "Pods-ChatSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338DE009069A3F9D5A59596E0B2F926A /* Debug */,
+				D159497080ACFFA21C3AF2C5C6F4AC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1874913BA1F82C4953C3C7F551AB22 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF862DDCC91AD02A705F8BB1D31B68F /* Debug */,
+				62B172E6B93A05E472567F03D4D4206D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA6AB0EE1914451CCB4A7BB70F0C87B /* Build configuration list for PBXNativeTarget "Pods-ChatSerializerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15750B262B9C228BB57EDB5A8A97AA40 /* Debug */,
+				7A09E29434CEFD398AF4BD42B81F266F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA481B9F2781C039A50D8869963DD46 /* Build configuration list for PBXNativeTarget "SwiftGifOrigin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF84EE23A1F4E7A43EDF9B2A4D5A5AC /* Debug */,
+				42E13D63FE64245312306143861277CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ic0-0b-T3D">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="CKo-q8-9Tj">
+            <objects>
+                <viewController id="ic0-0b-T3D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c0S-90-cke">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChatSerializer" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="3RW-BA-AnZ">
+                                <rect key="frame" x="16" y="210" width="343" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="qIw-Ja-wxe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Serializer, Author: Ahmad Ansari. 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="gJG-yG-ZHm">
+                                <rect key="frame" x="16" y="626" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="P2X-qq-auX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="FGA-dV-z9e">
+                                <rect key="frame" x="87" y="261" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="JVa-66-dy1"/>
+                                    <constraint firstAttribute="width" constant="200" id="gO7-Az-m1W"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FGA-dV-z9e" firstAttribute="centerX" secondItem="c0S-90-cke" secondAttribute="centerX" id="GNQ-wh-VBN"/>
+                            <constraint firstItem="3RW-BA-AnZ" firstAttribute="centerX" secondItem="c0S-90-cke" secondAttribute="centerX" id="KmK-rf-qML"/>
+                            <constraint firstItem="nTt-do-MeD" firstAttribute="trailing" secondItem="3RW-BA-AnZ" secondAttribute="trailing" constant="16" id="Mjz-D8-3Xo"/>
+                            <constraint firstItem="3RW-BA-AnZ" firstAttribute="leading" secondItem="nTt-do-MeD" secondAttribute="leading" constant="16" id="QRT-5B-GQz"/>
+                            <constraint firstItem="3RW-BA-AnZ" firstAttribute="top" secondItem="nTt-do-MeD" secondAttribute="top" constant="190" id="YG0-6I-OTX"/>
+                            <constraint firstItem="gJG-yG-ZHm" firstAttribute="leading" secondItem="nTt-do-MeD" secondAttribute="leading" constant="16" id="aGI-bv-1en"/>
+                            <constraint firstItem="nTt-do-MeD" firstAttribute="trailing" secondItem="gJG-yG-ZHm" secondAttribute="trailing" constant="16" id="fWd-SQ-CoP"/>
+                            <constraint firstItem="gJG-yG-ZHm" firstAttribute="centerX" secondItem="c0S-90-cke" secondAttribute="centerX" id="gBI-XN-cP3"/>
+                            <constraint firstItem="FGA-dV-z9e" firstAttribute="top" secondItem="3RW-BA-AnZ" secondAttribute="bottom" constant="8" id="i7I-rB-Fxs"/>
+                            <constraint firstItem="nTt-do-MeD" firstAttribute="bottom" secondItem="gJG-yG-ZHm" secondAttribute="bottom" constant="20" id="rhV-wT-l61"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nTt-do-MeD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4UA-x4-56t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319.19999999999999" y="393.55322338830587"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="256" height="256"/>
+    </resources>
+</document>
